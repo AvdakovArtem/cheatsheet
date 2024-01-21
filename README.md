@@ -64,7 +64,7 @@
 ```mermaid  
 graph LR;  
 untracked -- "git add"    --> staged;  
-staged    -- "git commit" --> tracked/comitted;  
+staged    -- "git commit" --> tracked;  
 staged    -- "изменение"  --> modifiled;  
 modifiled -- "git add"    --> staged;  
 tracked   -- "изменение"  --> modifiled;  
